@@ -6,14 +6,17 @@ This script allows you to download and convert YouTube videos into MP3 format us
 
 - Python 3.x
 - yt_dlp module
+- FFmpeg
 
 ## Installation
 
-Before running the script, you need to install the `yt_dlp` module. You can do this via pip:
+1. Before running the script, you need to install the `yt_dlp` module. You can do this via pip:
 
 ```bash
 pip install yt-dlp
 ```
+
+2. **FFmpeg**: This is required for audio extraction and conversion. You can download and install FFmpeg from [FFmpeg's official website](https://ffmpeg.org/download.html). Ensure that `ffmpeg` is added to your system's PATH.
 
 ## Usage
 
@@ -42,3 +45,4 @@ To use the script, run it in a Python environment. The script will prompt you to
 
 - This script is for personal use and should not be used to infringe on the copyrights of the video owners.
 - Ensure you have the right to download and convert the YouTube videos you are interested in.
+- The script requires FFmpeg for audio extraction and conversion. Make sure it is installed and configured correctly on your system.
