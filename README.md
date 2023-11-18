@@ -13,7 +13,7 @@ Before running the script, you need to install the `yt_dlp` module. You can do t
 
 ```bash
 pip install yt-dlp
-```bash
+```
 
 ## Usage
 
